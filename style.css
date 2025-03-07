@@ -1,0 +1,49 @@
+body {
+    background-image: url("image5.gif");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+button {
+    background-color: #ff4000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e63900;
+}
